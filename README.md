@@ -5,8 +5,8 @@
     <img src="README_images/nlp2.png" alt="Logo" width=150 height=150>
   </a>
   
-  <h1 align="center">Cultural Data Science 2021</h1> 
-  <h3 align="center">Language Analytics Exam</h3> 
+  <h1 align="center">Cognitive Science</h1> 
+  <h3 align="center">Natural Language Processing Exam</h3> 
 
 
   <p align="center">
