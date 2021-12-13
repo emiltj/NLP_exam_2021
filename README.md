@@ -5,7 +5,7 @@
     <img src="README_images/nlp2.png" alt="Logo" width=150 height=150>
   </a>
   
-  <h1 align="center">Cognitive Science</h1> 
+  <h1 align="center">Cognitive Science Master's 2021</h1> 
   <h3 align="center">Natural Language Processing Exam</h3> 
 
 
