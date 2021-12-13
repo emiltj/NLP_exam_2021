@@ -49,15 +49,12 @@
 <!-- GETTING STARTED -->
 ## Getting started
 
-To get started run the following
+To get started run the following:
 
 **NOTE:** There may be slight variations depending on the terminal and operating system you use.  The following example is designed for Git Bash on Windows 10. You also need to have _pip_ installed:
 ### Prerequisites
 
-The spatial analysis requires data layers that exceed the maximum filesize on GitHub. To reproduce the analysis the script ```data/data_download.sh``` has been provided. It will automatically download the files needed for replicating our analysis.
-
-For rerunning the analysis we therefore recommend cloning the repository, as well as using the provided script for downloading the data.
-This can be done using the following lines in an unix-based bash:
+This can be done using the following lines in a unix-based bash:
 
 ```bash
 git clone https://github.com/emiltj/NLP_exam_2021.git
