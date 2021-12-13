@@ -20,7 +20,7 @@
 <!-- CONTACT -->
 ## Contact
 
-Feel free to write the authors, Emil Jessen or Johan Horsmans for any questions regarding the scripts.
+Feel free to write the authors, [Emil Jessen](https://github.com/emiltj) or [Johan Horsmans](https://github.com/johanHorsmans) for any questions regarding the scripts.
 You may do so through our emails ([Emil](mailto:201807525@post.au.dk), [Johan](mailto:201810219@post.au.dk))
 <br />
 
