@@ -37,9 +37,6 @@
         <ul>
           <li><a href="#running-the-script">Running the script</a></li>
         </ul>
-        <ul>
-          <li><a href="#inspecting-the-script">Inspecting the script</a></li>
-        </ul>      
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -78,6 +75,15 @@ This repository has the following structure:
 |--------|:-------|
 ```asd.pdf``` | Written report containing ...
 ```asd.md```| Markdown of ... 
+
+<!-- DATA -->
+## Data
+
+<!-- USAGE -->
+## Usage
+
+### Running the script
+
 
 <!-- LICENSE -->
 ## License
