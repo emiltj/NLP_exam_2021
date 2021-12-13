@@ -18,6 +18,35 @@
 </p>
 
 
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About the project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+      </ul>
+    </li>
+    <li><a href="#repository-structure">Repository structure</a></li>
+    <li><a href="#data">Data</a></li>
+    <li><a href="#usage">Usage</a></li>
+        <ul>
+          <li><a href="#running-the-script">Running the script</a></li>
+        </ul>
+        <ul>
+          <li><a href="#inspecting-the-script">Inspecting the script</a></li>
+        </ul>      
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
 <!-- ABOUT THE PROJECT -->
 ## About the project
 
