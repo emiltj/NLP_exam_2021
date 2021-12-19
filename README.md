@@ -59,7 +59,7 @@ This repository has the following structure:
 ```data/dataset_1/``` | Folder to contain the 1st dataset (make sure to follow the section "_usage_" for data acquisition)
 ```data/dataset_2/``` | Folder to contain the 2nd dataset (make sure to follow the section "_usage_" for data acquisition)
 ```data/generated_data/``` | Folder to contain the 1st and 2nd dataset after cleaning, as well as a .csv file with fake entries from dataset 2 after cleaning, chunked up into periods (make sure to follow the section "_usage_").
-```word_embeddings/``` | Folder, containing
+```word_embeddings/``` | Folder, containing ******************* Johan what is the structure here?
 ```datetime.ipynb``` | Notebook containing the processing and chunking of entries by dates in the fake labels for dataset 1, required for the word embedding analysis
 ```NLP_Exam_Synopsis.pdf``` | Written synopsis containing all relevant information regarding the project
 ```Analysis.ipynb```| Notebook containing the entire analysis, excluding the word embedding analysis
@@ -167,4 +167,4 @@ You may do so through our emails ([Emil](mailto:201807525@post.au.dk), [Johan](m
 ## Acknowledgements
   
 Furthermore, we would like to extend our gratitude towards the following:
-* [RStudio](https://www.rstudio.com/) - Software used for conducting the analysis
+* [Vassilis Barzokas et al.](https://github.com/intelligence-csd-auth-gr/greek-words-evolution) - Original authors of the repository with the implemented overall framework for our word embedding analysis
