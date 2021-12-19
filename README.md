@@ -28,15 +28,15 @@
     <li>
       <a href="#getting-started">Getting started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#clone-repository">Clone repository</a></li>
+        <li><a href="#download-data">Download data</a></li>
+        <li><a href="#install-virtual-environment">Install virtual environment</a></li>
+        <li><a href="#run-notebook">Run notebook</a></li>
+        <li><a href="#perform-word-embedding-analysis">Perform word embedding analysis</a></li>
       </ul>
     </li>
     <li><a href="#repository-structure">Repository structure</a></li>
     <li><a href="#data">Data</a></li>
-    <li><a href="#usage">Usage</a></li>
-        <ul>
-          <li><a href="#running-the-script">Running the script</a></li>
-        </ul>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -85,12 +85,12 @@ cd NLP_exam_2021
 bash create_venv.sh
 ```
 
-#### Running notebook
+#### Run notebook
 
 You should now be ready to run notebook and perform the analysis. Open analysis.ipynb 
 
 
-#### Running word embedding analysis 
+#### Perform word embedding analysis 
 
 
 
