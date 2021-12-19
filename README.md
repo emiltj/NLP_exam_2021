@@ -60,7 +60,7 @@ To use or reproduce our results you need to adopt the following steps.
 
 ### Clone repository
 ```bash
-git clone https://github.com/emiltj/NLP_exam_2021.git
+git clone https:```//github.com/emiltj/NLP_exam_2021.git```
 ```
 
 ### Download data
@@ -72,7 +72,7 @@ The .csv files from dataset 1 needs to be placed in the folder ______
 #### Dataset 2
 Download dataset 2 from [Fake News dataset](https://github.com/rpitrust/fakenewsdata1). Access is open for anyone.
 
-The .csv files from dataset 2 in the folders Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Fake and Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Real needs to be placed in the folder ______
+The .csv files from dataset 2 in the folders ```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Fake``` and ```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Real``` needs to be placed in the folder ```______```
 
 ### Install virtual environment
 
@@ -80,12 +80,12 @@ Install virtual environment using the following lines in a unix-based bash:
 
 ```bash
 cd NLP_exam_2021
-bash create_venv.sh
+bash ```create_venv.sh```
 ```
 
 #### Run notebook
 
-Run notebook analysis.ipynb
+Run notebook ```analysis.ipynb```
 
 
 
