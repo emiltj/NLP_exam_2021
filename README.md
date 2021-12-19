@@ -25,18 +25,18 @@
     <li>
       <a href="#about-the-project">About the project</a>
     </li>
+    <li><a href="#repository-structure">Repository structure</a></li>
+    <li><a href="#data">Data</a></li>
     <li>
       <a href="#usage">Usage</a>
       <ul>
-        <li><a href="#clone-repository">Clone repository</a></li>
+        <li><a href="#clone-repository-and-create-virtual-environment">Clone repository and create virtual environment</a></li>
         <li><a href="#download-data">Download data</a></li>
         <li><a href="#install-virtual-environment">Install virtual environment</a></li>
         <li><a href="#run-notebook">Run notebook</a></li>
         <li><a href="#perform-word-embedding-analysis">Perform word embedding analysis</a></li>
       </ul>
     </li>
-    <li><a href="#repository-structure">Repository structure</a></li>
-    <li><a href="#data">Data</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -45,59 +45,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About the project
-
-<!-- USAGE -->
-## Usage
-
-To use or reproduce our results you need to adopt the following steps.
-
-**NOTE:** There may be slight variations depending on the terminal and operating system you use.  The following example is designed to work using GitBash on Windows 10. You also need to have _pip_ installed:
-
-1. Clone repository
-2. Download data
-3. Install virtual environment
-4. Run and inspect script
-
-### Clone repository
-```bash
-git clone https:```//github.com/emiltj/NLP_exam_2021.git```
-```
-
-### Download data
-#### Dataset 1
-Download dataset 1 from [Victoria university's Information security and object technology labs, website](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php). Access can be gained through an affiliaty university or alternatively through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
-
-The .csv files from dataset 1 needs to be placed in the folder:
-```NLP_exam_2021/data/dataset1```
-
-#### Dataset 2
-Download dataset 2 from [Fake News dataset](https://github.com/rpitrust/fakenewsdata1). Access is open for anyone.
-
-The .csv files from dataset 2 in the folders:
-```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Fake``` and 
-```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Real``` 
-needs to be placed in the folder:
-```NLP_exam_2021/data/dataset2```
-
-### Install virtual environment
-
-Install virtual environment using the following lines in a unix-based bash:
-
-```bash
-cd NLP_exam_2021
-bash ```create_venv.sh```
-```
-
-#### Run notebook
-
-Run notebook ```analysis.ipynb```
-
-
-
-#### Perform word embedding analysis 
-
-Perform word embedding analysis by ???????????
-
 
 <!-- REPOSITORY STRUCTURE -->
 ## Repository structure
@@ -128,6 +75,53 @@ The analysis utilized the [Fake News dataset](https://www-uvic-ca.ez.statsbiblio
 ### Dataset 2
 The analysis also utilizes the [Fake News dataset](https://github.com/rpitrust/fakenewsdata1) by [Horne et al., (2017)](https://ojs.aaai.org/index.php/ICWSM/article/download/14976/14826). Access is open for anyone.
 
+
+
+<!-- USAGE -->
+## Usage
+
+To use or reproduce our results you need to adopt the following steps.
+
+**NOTE:** There may be slight variations depending on the terminal and operating system you use.  The following example is designed to work using GitBash on Windows 10. You also need to have _pip_ installed:
+
+1. Clone repository
+2. Download data
+3. Install virtual environment
+4. Run and inspect script
+
+### Clone repository and create virtual environment
+
+Clone repository and install virtual environment using the following lines in a unix-based bash:
+
+```bash
+git clone https:```//github.com/emiltj/NLP_exam_2021.git```
+cd NLP_exam_2021
+bash ```create_venv.sh```
+```
+
+### Download data
+#### Dataset 1
+Download dataset 1 from [Victoria university's Information security and object technology labs, website](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php). Access can be gained through an affiliaty university or alternatively through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
+
+The .csv files from dataset 1 needs to be placed in the folder:
+```NLP_exam_2021/data/dataset1```
+
+#### Dataset 2
+Download dataset 2 from [Fake News dataset](https://github.com/rpitrust/fakenewsdata1). Access is open for anyone.
+
+The .csv files from dataset 2 in the folders:
+```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Fake``` and 
+```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Real``` 
+needs to be placed in the folder:
+```NLP_exam_2021/data/dataset2```
+
+### Run notebook
+
+Run notebook ```analysis.ipynb```
+
+### Perform word embedding analysis 
+
+Perform word embedding analysis by ???????????
 
 <!-- LICENSE -->
 ## License
