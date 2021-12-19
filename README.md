@@ -48,6 +48,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About the project
+This project assesses the generalizability of fake news detection algorithms, focussing on data quantity and quality. We do this by firstly training and cross-testing BERT models on two very different datasets; one large dataset of relatively poor quality and another which contains significantly fewer entries but of higher quality. Secondly, we want to investigate future prospects within the field. To do this, we discuss the findings of our cross-testing and evaluating the importance of accommodating the non-staticity of the task; in part by performing an analysis of word embeddings over time.
+
 
 <!-- REPOSITORY STRUCTURE -->
 ## Repository structure
@@ -63,6 +65,7 @@ This repository has the following structure:
 ```NLP_Exam_Synopsis.pdf``` | Written synopsis containing all relevant information regarding the project
 ```Analysis.ipynb```| Notebook containing the entire analysis, excluding the word embedding analysis
 ```requirements.txt```| Requirements file
+```.gitignore```| .gitignore file specifying that data and virtual environment ought to be excluded from GitHub handling
 ```README.md```| This markdown
 
 
