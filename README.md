@@ -67,12 +67,17 @@ git clone https:```//github.com/emiltj/NLP_exam_2021.git```
 #### Dataset 1
 Download dataset 1 from [Victoria university's Information security and object technology labs, website](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php). Access can be gained through an affiliaty university or alternatively through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
 
-The .csv files from dataset 1 needs to be placed in the folder ______
+The .csv files from dataset 1 needs to be placed in the folder:
+```NLP_exam_2021/data/dataset1```
 
 #### Dataset 2
 Download dataset 2 from [Fake News dataset](https://github.com/rpitrust/fakenewsdata1). Access is open for anyone.
 
-The .csv files from dataset 2 in the folders ```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Fake``` and ```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Real``` needs to be placed in the folder ```______```
+The .csv files from dataset 2 in the folders:
+```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Fake``` and 
+```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Real``` 
+needs to be placed in the folder:
+```NLP_exam_2021/data/dataset2```
 
 ### Install virtual environment
 
@@ -100,8 +105,12 @@ This repository has the following structure:
 
 | File | Description|
 |--------|:-------|
-```asd.pdf``` | Written report containing ...
-```asd.md```| Markdown of ... 
+```data/``` | Folder, containing the data
+```data/dataset1``` | Folder, containing the 1st dataset
+```data/dataset2``` | Folder, containing the 2nd dataset
+```NLP_Exam_Synopsis.pdf``` | Written synopsis containing all relevant information regarding the project
+```analysis.ipynb```| Notebook containing the entire analysis, excluding the word embedding analysis
+```README.md```| This markdwon
 
 <!-- DATA -->
 ## Data
