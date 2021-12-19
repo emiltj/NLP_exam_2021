@@ -64,17 +64,13 @@ git clone https://github.com/emiltj/NLP_exam_2021.git
 ```
 
 ### Download data
-#### Dataset 1
-The analysis utilized the [Fake News dataset](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php) from University of Victoria's research laboratory _Information security and object technology_ (ISOT). Access can be gained through an affiliaty university, or through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
+Download dataset 1 from [Victoria university's Information security and object technology labs, website](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php). Access can be gained through an affiliaty university or alternatively through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
 
-The files "Fake.csv" and "Real.csv" need to be moved to the following folder:
-NLP_exam_2021/data/
+Download dataset 2 from [Fake News dataset](https://github.com/rpitrust/fakenewsdata1). Access is open for anyone
 
-#### Dataset 2
-The analysis also utilizes the [Fake News dataset](https://github.com/rpitrust/fakenewsdata1) by [Horne et al., (2017)](https://ojs.aaai.org/index.php/ICWSM/article/download/14976/14826). Access is open for anyone.
-The file
+The .csv files from dataset 1 needs to be placed in the folder ______
+The .csv files from dataset 2 in the folders Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Fake and Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Real needs to be placed in the folder ______
 
-The files _______ and ______ need to be moved to the following folder:
 
 ### Install virtual environment
 
@@ -105,6 +101,15 @@ This repository has the following structure:
 
 <!-- DATA -->
 ## Data
+### Dataset 1
+The analysis utilized the [Fake News dataset](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php) from University of Victoria's research laboratory _Information security and object technology_ (ISOT). Access can be gained through an affiliaty university, or through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
+
+The files "Fake.csv" and "Real.csv" need to be moved to the following folder:
+NLP_exam_2021/data/
+
+### Dataset 2
+The analysis also utilizes the [Fake News dataset](https://github.com/rpitrust/fakenewsdata1) by [Horne et al., (2017)](https://ojs.aaai.org/index.php/ICWSM/article/download/14976/14826). Access is open for anyone.
+
 
 <!-- LICENSE -->
 ## License
