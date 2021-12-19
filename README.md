@@ -58,26 +58,25 @@ To use or reproduce our results you need to adopt the following steps.
 3. Install virtual environment
 4. Run and inspect script
 
-### Prerequisites
-#### Clone repository
+### Clone repository
 ```bash
 git clone https://github.com/emiltj/NLP_exam_2021.git
 ```
 
-#### Download data
-##### Dataset 1
+### Download data
+#### Dataset 1
 The analysis utilized the [Fake News dataset](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php) from University of Victoria's research laboratory _Information security and object technology_ (ISOT). Access can be gained through an affiliaty university, or through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
 
 The files "Fake.csv" and "Real.csv" need to be moved to the following folder:
 NLP_exam_2021/data/
 
-##### Dataset 2
+#### Dataset 2
 The analysis also utilizes the [Fake News dataset](https://github.com/rpitrust/fakenewsdata1) by [Horne et al., (2017)](https://ojs.aaai.org/index.php/ICWSM/article/download/14976/14826). Access is open for anyone.
 The file
 
 The files _______ and ______ need to be moved to the following folder:
 
-#### Install virtual environment
+### Install virtual environment
 
 This can be done using the following lines in a unix-based bash:
 
