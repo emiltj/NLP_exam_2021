@@ -26,7 +26,7 @@
       <a href="#about-the-project">About the project</a>
     </li>
     <li>
-      <a href="#getting-started">Getting started</a>
+      <a href="#usage">Usage</a>
       <ul>
         <li><a href="#clone-repository">Clone repository</a></li>
         <li><a href="#download-data">Download data</a></li>
