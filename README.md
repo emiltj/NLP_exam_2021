@@ -52,8 +52,8 @@ This repository has the following structure:
 
 | File | Description|
 |--------|:-------|
-```data/dataset_1``` | Folder to contain the 1st dataset (make sure to follow the section "_usage_" for data acquisition)
-```data/dataset_2``` | Folder to contain the 2nd dataset (make sure to follow the section "_usage_" for data acquisition)
+```data/dataset_1/``` | Folder to contain the 1st dataset (make sure to follow the section "_usage_" for data acquisition)
+```data/dataset_2/``` | Folder to contain the 2nd dataset (make sure to follow the section "_usage_" for data acquisition)
 ```data/generated_data/cleaned_dataset_1``` | .csv file with dataset 1 after cleaning
 ```data/generated_data/cleaned_dataset_2``` | .csv file with dataset 2 after cleaning
 ```data/generated_data/fake_periods``` | .csv file with fake entries from dataset 2 after cleaning, chunked up into periods
