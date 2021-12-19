@@ -64,6 +64,7 @@ This repository has the following structure:
 ```NLP_Exam_Synopsis.pdf``` | Written synopsis containing all relevant information regarding the project
 ```Analysis.ipynb```| Notebook containing the entire analysis, excluding the word embedding analysis
 ```requirements.txt```| Requirements file
+```data_download.sh```| Bash scripts that automatically downloads the preprocessed files needed for the analysis
 ```.gitignore```| .gitignore file specifying that data and virtual environment ought to be excluded from GitHub handling
 ```README.md```| This markdown
 
