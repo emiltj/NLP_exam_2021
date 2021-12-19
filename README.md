@@ -52,10 +52,8 @@ This repository has the following structure:
 
 | File | Description|
 |--------|:-------|
-```data/``` | Folder, containing the data
-```data/dataset_1``` | Folder, containing the 1st dataset
-```data/dataset_2``` | Folder, containing the 2nd dataset
-```data/generated_data``` | Folder, containing the preprocessed datasets
+```data/dataset_1``` | Folder to contain the 1st dataset (make sure to follow the section "_usage_" for data acquisition)
+```data/dataset_2``` | Folder to contain the 2nd dataset (make sure to follow the section "_usage_" for data acquisition)
 ```data/generated_data/cleaned_dataset_1``` | .csv file with dataset 1 after cleaning
 ```data/generated_data/cleaned_dataset_2``` | .csv file with dataset 2 after cleaning
 ```data/generated_data/fake_periods``` | .csv file with fake entries from dataset 2 after cleaning, chunked up into periods
@@ -74,8 +72,6 @@ The analysis utilized the [Fake News dataset](https://www-uvic-ca.ez.statsbiblio
 
 ### Dataset 2
 The analysis also utilizes the [Fake News dataset](https://github.com/rpitrust/fakenewsdata1) by [Horne et al., (2017)](https://ojs.aaai.org/index.php/ICWSM/article/download/14976/14826). Access is open for anyone.
-
-
 
 <!-- USAGE -->
 ## Usage
