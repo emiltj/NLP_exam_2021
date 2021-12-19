@@ -46,23 +46,54 @@
 <!-- ABOUT THE PROJECT -->
 ## About the project
 
-<!-- GETTING STARTED -->
-## Getting started
+<!-- USAGE -->
+## Usage
 
-To get started run the following:
+To use or reproduce our results you need to adopt the following steps.
 
-**NOTE:** There may be slight variations depending on the terminal and operating system you use.  The following example is designed for Git Bash on Windows 10. You also need to have _pip_ installed:
+**NOTE:** There may be slight variations depending on the terminal and operating system you use.  The following example is designed to work using GitBash on Windows 10. You also need to have _pip_ installed:
+
+1. Clone repository
+2. Download data
+3. Install virtual environment
+4. Run and inspect script
+
 ### Prerequisites
+#### Clone repository
+```bash
+git clone https://github.com/emiltj/NLP_exam_2021.git
+```
+
+#### Download data
+##### Dataset 1
+The analysis utilized the [Fake News dataset](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php) from University of Victoria's research laboratory _Information security and object technology_ (ISOT). Access can be gained through an affiliaty university, or through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
+
+The files "Fake.csv" and "Real.csv" need to be moved to the following folder:
+NLP_exam_2021/data/
+
+##### Dataset 2
+The analysis also utilizes the [Fake News dataset](https://github.com/rpitrust/fakenewsdata1) by [Horne et al., (2017)](https://ojs.aaai.org/index.php/ICWSM/article/download/14976/14826). Access is open for anyone.
+The file
+
+The files _______ and ______ need to be moved to the following folder:
+
+#### Install virtual environment
 
 This can be done using the following lines in a unix-based bash:
 
 ```bash
-git clone https://github.com/emiltj/NLP_exam_2021.git
 cd NLP_exam_2021
-bash _____________.sh
+bash create_venv.sh
 ```
 
-You should now be ready to run the code.
+#### Running notebook
+
+You should now be ready to run notebook and perform the analysis. Open analysis.ipynb 
+
+
+#### Running word embedding analysis 
+
+
 
 <!-- REPOSITORY STRUCTURE -->
 ## Repository structure
@@ -75,12 +106,6 @@ This repository has the following structure:
 
 <!-- DATA -->
 ## Data
-
-<!-- USAGE -->
-## Usage
-
-### Running the script
-
 
 <!-- LICENSE -->
 ## License
