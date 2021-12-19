@@ -27,7 +27,10 @@
     </li>
     <li><a href="#repository-structure">Repository structure</a></li>
     <li><a href="#data">Data</a></li>
-    <li>
+    <ul>
+      <li><a href="#dataset-1">Dataset 1</a></li>
+      <li><a href="#dataset-2">Dataset 2</a></li>
+    </ul>
       <a href="#usage">Usage</a>
       <ul>
         <li><a href="#clone-repository-and-create-virtual-environment">Clone repository and create virtual environment</a></li>
