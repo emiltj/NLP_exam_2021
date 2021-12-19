@@ -106,11 +106,18 @@ This repository has the following structure:
 | File | Description|
 |--------|:-------|
 ```data/``` | Folder, containing the data
-```data/dataset1``` | Folder, containing the 1st dataset
-```data/dataset2``` | Folder, containing the 2nd dataset
+```data/dataset_1``` | Folder, containing the 1st dataset
+```data/dataset_2``` | Folder, containing the 2nd dataset
+```data/generated_data``` | Folder, containing the preprocessed datasets
+```data/generated_data/cleaned_dataset_1``` | .csv file with dataset 1 after cleaning
+```data/generated_data/cleaned_dataset_2``` | .csv file with dataset 2 after cleaning
+```data/generated_data/fake_periods``` | .csv file with fake entries from dataset 2 after cleaning, chunked up into periods
+```word_embeddings``` | Folder, containing
+```datetime.ipynb``` | Notebook containing the processing and chunking of entries by dates in the fake labels for dataset 1, required for the word embedding analysis
 ```NLP_Exam_Synopsis.pdf``` | Written synopsis containing all relevant information regarding the project
-```analysis.ipynb```| Notebook containing the entire analysis, excluding the word embedding analysis
-```README.md```| This markdwon
+```Analysis.ipynb```| Notebook containing the entire analysis, excluding the word embedding analysis
+```requirements.txt```| Requirements file
+```README.md```| This markdown
 
 <!-- DATA -->
 ## Data
