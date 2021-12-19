@@ -107,6 +107,17 @@ bash ```create_venv.sh```
 ```
 
 ### Download data
+
+To replicate our results, we have included a bash script that automatically retrieves the preprocessed data. 
+Follow the code below:
+
+```bash
+cd NLP_exam_2021
+bash ```download_data.sh```
+```
+
+If you want to access the original data and perform preprocessing yourself, you may use below:
+
 #### Dataset 1
 Download dataset 1 from [Victoria university's Information security and object technology labs, website](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php). Access can be gained through an affiliaty university or alternatively through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
 
