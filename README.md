@@ -27,7 +27,7 @@
     </li>
           <a href="#usage">Usage</a>
       <ul>
-        <li><a href="#clone-repository-and-create-virtual-environment">Clone repository and create virtual environment</a></li>
+        <li><a href="#clone-repository-and-install-packages">Clone repository and install packages</a></li>
         <li><a href="#download-data">Download data</a></li>
         <li><a href="#run-classification-analysis">Run classification analysis</a></li>
         <li><a href="#perform-word-embedding-analysis">Perform word embedding analysis</a></li>
@@ -62,9 +62,9 @@ To use or reproduce our results you need to adopt the following steps.
 3. Run classificaiton analysis
 4. Run word embedding analysis
 
-### Clone repository and create virtual environment
+### Clone repository and install packages
 
-Clone repository and install virtual environment using the following lines in the unix-based bash:
+Clone repository and install the required packages using the following lines in the unix-based bash:
 
 ```bash
 git clone https://github.com/emiltj/NLP_exam_2021.git
