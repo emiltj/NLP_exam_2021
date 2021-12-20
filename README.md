@@ -30,7 +30,7 @@
         <li><a href="#clone-repository-and-create-virtual-environment">Clone repository and create virtual environment</a></li>
         <li><a href="#download-data">Download data</a></li>
         <li><a href="#install-virtual-environment">Install virtual environment</a></li>
-        <li><a href="#run-notebook">Run notebook</a></li>
+        <li><a href="#run-classification-analysis">Run classificaiton analysis</a></li>
         <li><a href="#perform-word-embedding-analysis">Perform word embedding analysis</a></li>
       </ul>
     </li>
@@ -61,7 +61,8 @@ To use or reproduce our results you need to adopt the following steps.
 1. Clone repository
 2. Download data and create virtual environment
 3. Install virtual environment
-4. Run and inspect script
+4. Run classificaiton analysis
+5. Run word embedding analysis
 
 ### Clone repository and create virtual environment
 
@@ -101,7 +102,7 @@ The .csv files from dataset 2 in the folders:
 needs to be placed in the folder:
 ```NLP_exam_2021/data/dataset_2```
 
-### Run notebook
+### Run classificaiton analysis
 
 Run notebook ```Analysis.ipynb```*
 
@@ -189,23 +190,6 @@ This repository has the following structure:
                 0040.txt
                 0050.txt
 ```
-
-
-| File | Description|
-|--------|:-------|
-```data/dataset_1/``` | Folder to contain the 1st dataset (make sure to follow the section "_usage_" for data acquisition)
-```data/dataset_2/``` | Folder to contain the 2nd dataset (make sure to follow the section "_usage_" for data acquisition)
-```data/generated_data/``` | Folder to contain the 1st and 2nd dataset after cleaning, as well as a .csv file with fake entries from dataset 2 after cleaning, chunked up into periods (make sure to follow the section "_usage_").
-```word_embeddings/we.py``` | .py script, for running the word embedding analysis
-```word_embeddings/output/texts/``` | Folder, containing ******************* Johan what is the structure here?
-```word_embeddings/output/models/``` | Folder, containing ******************* Johan what is the structure here?
-```datetime.ipynb``` | Notebook containing the processing and chunking of entries by dates in the fake labels for dataset 1, required for the word embedding analysis
-```NLP_Exam_Synopsis.pdf``` | Written synopsis containing all relevant information regarding the project
-```Analysis.ipynb```| Notebook containing the entire analysis, excluding the word embedding analysis
-```requirements.txt```| Requirements file
-```download_preprocessed.sh```| Bash scripts that automatically downloads the preprocessed files needed for the analysis
-```.gitignore```| .gitignore file specifying that data and virtual environment ought to be excluded from GitHub handling
-```README.md```| This markdown
 
 <!-- DATA -->
 ## Data
