@@ -155,14 +155,14 @@ To use or reproduce our results you need to adopt the following steps.
 Clone repository and install virtual environment using the following lines in a unix-based bash:
 
 ```bash
-git clone ```https://github.com/emiltj/NLP_exam_2021.git```
+git clone https://github.com/emiltj/NLP_exam_2021.git
 cd NLP_exam_2021
 conda create --name NLP_exam_2021
 conda activate NLP_exam_2021
 conda install pip
 pip install ipython
 pip install jupyter
-conda install --file requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Download (preprocessed) data
@@ -173,7 +173,7 @@ Follow the code below:
 ```bash
 cd NLP_exam_2021
 conda activate NLP_exam_2021
-bash ```download_data.sh```
+bash download_preprocessed.sh
 ```
 
 If you want to access the original data and perform preprocessing yourself, you may use the links below:
@@ -203,8 +203,6 @@ Run notebook ```analysis.ipynb```
 Perform word embedding analysis by running the following in your unix-type bash
 
 ```bash
-cd NLP_exam_2021/
-pip install -r requirements.txt
 cd word_embeddings/
 git clone https://github.com/JohanHorsmans/fastText.git
 cd fastText 
