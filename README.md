@@ -55,7 +55,7 @@ This project assesses the generalizability of fake news detection algorithms, fo
 
 To use or reproduce our results you need to adopt the following steps.
 
-**NOTE:** There may be slight variations depending on the terminal and operating system you use. The following example is designed to work using the JupyterNotebook Latex application on UCloud. The terminal code should therefore work using a unix-based bash. Nonetheless, if you used a different IDE or operating system, there may be some slight variations and hiccups. You may also want to create a new virtual environment for this project.
+**NOTE:** There may be slight variations depending on the terminal and operating system you use. The following example is designed to work using the JupyterNotebook Latex application on UCloud. The terminal code should therefore work using a unix-based bash. Nonetheless, if you use a different IDE or operating system, there may be slight variations and hiccups. You may also want to create a new virtual environment for this project.
 
 1. Clone repository
 2. Download data and packages
