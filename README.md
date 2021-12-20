@@ -56,7 +56,7 @@ This project assesses the generalizability of fake news detection algorithms, fo
 
 To use or reproduce our results you need to adopt the following steps.
 
-**NOTE:** There may be slight variations depending on the terminal and operating system you use.  The following example is designed to work using GitBash on Windows 10. You also need to have conda installed:
+**NOTE:** There may be slight variations depending on the terminal and operating system you use. The following example is designed to work using GitBash on Windows 10. You may also want to create a new virtual environment for this project:
 
 1. Clone repository
 2. Download data and create virtual environment
@@ -70,22 +70,16 @@ Clone repository and install virtual environment using the following lines in a 
 ```bash
 git clone https://github.com/emiltj/NLP_exam_2021.git
 cd NLP_exam_2021
-conda create --name NLP_exam_2021
-conda activate NLP_exam_2021
-conda install pip
-pip install ipython
-pip install jupyter
 pip install -r requirements.txt
 ```
 
-### Download (preprocessed) data
+### Download data
 
 To replicate our results, we have included a bash script that automatically creates folders for the preprocessed data and retrieves it.
 Follow the code below:
 
 ```bash
 cd NLP_exam_2021
-conda activate NLP_exam_2021
 bash download_preprocessed.sh
 ```
 
