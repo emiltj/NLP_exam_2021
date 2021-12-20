@@ -19,15 +19,14 @@ rm -r News_dataset.zip
 
 # Go to folder, download and unzip
 cd ../data/dataset_2/fake
-gdown https://drive.google.com/uc?id=
-rm -r .zip
+gdown https://drive.google.com/uc?id=1B-pBxRaQMrGq4mJbf08Cil6NYIfpCr6Y
+unzip fake.zip
+rm -r fake.zip
 
 cd ../data/dataset_2/real
-gdown https://drive.google.com/uc?id=
-
-rm -r .zip
-
-
+gdown https://drive.google.com/uc?id=1aw8OssyIbdfuAB1iocpib3h-2ioA__RY
+unzip real.zip
+rm -r real.zip
 
 # Go to folder
 cd ../../word_embeddings/output/texts
