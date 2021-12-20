@@ -29,7 +29,7 @@ unzip real.zip
 rm -r real.zip
 
 # Go to folder
-cd ../../word_embeddings/output/texts
+cd ../../../word_embeddings/output/texts
 
 # For each link in list of links, download to current folder
 for f in https://drive.google.com/uc?id=1DekmTDnSCM-iagSJad8Ayr0k_MO_ueNV https://drive.google.com/uc?id=10V7G7lQbi4xyLQ_28xcTaXU8VoUag4fT https://drive.google.com/uc?id=1tIuQ9ghHWpM2vcMHHJWi47XyfZW1gsqS https://drive.google.com/uc?id=1bK8dctrVaiVdLdiBNtoN-xTDAiwn4to2 https://drive.google.com/uc?id=1jUYGs6Y_8MQpQQF9G-e8VHnzJpl6qbHC; do gdown $f; done
