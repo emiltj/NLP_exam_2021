@@ -82,14 +82,6 @@ cd NLP_exam_2021
 bash download_data.sh
 ```
 
-The raw data has originally been retrieved from the links below:
-
-#### Dataset 1
-Download dataset 1 from [Victoria university's Information security and object technology labs, website](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php). Access can be gained through an affiliaty university or alternatively through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
-
-#### Dataset 2
-Download dataset 2 from [Fake News dataset](https://github.com/rpitrust/fakenewsdata1). Access is open for anyone.
-
 ### Run classification analysis
 
 Run notebook ```Analysis.ipynb```*
@@ -186,6 +178,8 @@ This repository has the following structure:
 
 For more exhaustive information on the data, see ```NLP_Exam_Synopsis.pdf``` and the original papers.
 
+The raw data for the analysis has originally been retrieved from the links below:
+
 ### Dataset 1
 The analysis utilized the [Fake News dataset](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php) from University of Victoria's research laboratory _Information security and object technology_ (ISOT). Access can be gained through an affiliaty university, or through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset. The data had been acquired and first used by [Ahmed et al., (2017a); Ahmed et al., (2017b)](https://scholar.google.dk/scholar?hl=da&as_sdt=0%2C5&q=ahmed+et+al+fake+news+2017&btnG=)
 
@@ -199,7 +193,7 @@ Distributed under the [Apache 2.0 License](https://opensource.org/licenses/Apach
 <!-- CONTACT -->
 ## Contact
 
-Feel free to write the authors, [Emil Jessen](https://github.com/emiltj) or [Johan Horsmans](https://github.com/johanHorsmans) for any questions regarding the scripts.
+Feel free to contact the authors, [Emil Jessen](https://github.com/emiltj) or [Johan Horsmans](https://github.com/johanHorsmans) for any questions regarding the scripts.
 You may do so through our emails ([Emil](mailto:201807525@post.au.dk), [Johan](mailto:201810219@post.au.dk))
 <br />
 
@@ -207,7 +201,9 @@ You may do so through our emails ([Emil](mailto:201807525@post.au.dk), [Johan](m
 ## Acknowledgements
   
 Furthermore, we would like to extend our gratitude towards the following:
-* [Vassilis Barzokas et al.](https://github.com/intelligence-csd-auth-gr/greek-words-evolution) - Original authors of the repository with the implemented overall framework for our word embedding analysis
+* [Barzokas et al. (2019/2021)](https://github.com/intelligence-csd-auth-gr/greek-words-evolution) - Original authors of the repository with the implemented overall framework for our word embedding analysis.
+* Horne et al. (2017) for providing data.
+* Ahmed et al., (2017a); Ahmed et al., (2017b) for providing data.
 
 <br />
 <p align="center">
