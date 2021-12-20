@@ -94,7 +94,7 @@ Download dataset 2 from [Fake News dataset](https://github.com/rpitrust/fakenews
 
 Run notebook ```Analysis.ipynb```*
 
-\* If you are using the preprocessed data, you may simply choose to skip all chunks in the script called "preprocessing" and proceed from the point where the preprocessed data is loaded. Furthermore, due to file-size constraints, the fine-tuned BERT models are not included in this repository and, therefore, need to be trained from scratch. If you wish to retrieve the fine-tuned models, please contact the authors.
+\* If you are using the preprocessed data, you may simply choose to skip all chunks in the script called "preprocessing" and proceed from the point where the preprocessed data is loaded. Furthermore, due to file-size constraints, the fine-tuned BERT models are not included in this repository and, therefore, need to be trained from scratch. If you wish to retrieve the fine-tuned models, please reach out.
 
 ### Perform word embedding analysis
 
