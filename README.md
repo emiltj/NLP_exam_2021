@@ -179,7 +179,7 @@ This repository has the following structure:
                 0040.txt*
                 0050.txt*
 ```
-\* These files are not found within this repository, but rather acquired through the steps under the section _usage_
+\* These files are not found within this repository, but rather acquired through the steps under the section _usage_.
 
 <!-- DATA -->
 ## Data
