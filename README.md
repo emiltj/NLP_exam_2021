@@ -59,7 +59,7 @@ To use or reproduce our results you need to adopt the following steps.
 
 1. Clone repository
 2. Download data and packages
-3. Run classificaiton analysis
+3. Run classification analysis
 4. Run word embedding analysis
 
 ### Clone repository and install packages
