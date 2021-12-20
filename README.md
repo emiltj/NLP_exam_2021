@@ -142,9 +142,9 @@ Perform word embedding analysis by running the following in your unix-type bash
 
 ```bash
 cd NLP_exam_2021/word_embeddings/fastText 
-Make
-Pip install .
-Cd ..
+make
+pip install .
+cd ..
 
 # Train models by doing the following:
 python we.py model --action create
