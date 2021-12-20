@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ### Download data
 
-To replicate our results, we have included a bash script that automatically creates folders for the preprocessed data and retrieves it.
+To replicate our results, we have included a bash script that automatically creates folders for the data (both raw and preprocessed) and retrieves it.
 Follow the code below:
 
 ```bash
@@ -82,29 +82,19 @@ cd NLP_exam_2021
 bash download_data.sh
 ```
 
-If you want to access the original data and perform preprocessing yourself, you may use the links below:
+The raw data has originally been retrieved from the links below:
 
 #### Dataset 1
 Download dataset 1 from [Victoria university's Information security and object technology labs, website](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php). Access can be gained through an affiliaty university or alternatively through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
 
-The .csv files from dataset 1 needs to be placed in the folder:
-```NLP_exam_2021/data/dataset_1```
-
-
 #### Dataset 2
 Download dataset 2 from [Fake News dataset](https://github.com/rpitrust/fakenewsdata1). Access is open for anyone.
-
-The .csv files from dataset 2 in the folders:
-```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Fake``` and 
-```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Real``` 
-needs to be placed in the folder:
-```NLP_exam_2021/data/dataset_2```
 
 ### Run classification analysis
 
 Run notebook ```Analysis.ipynb```*
 
-\* If you are using the preprocessed data, you may simply choose to skip all chunks in the script called "preprocessing".
+\* If you are using the preprocessed data, you may simply choose to skip all chunks in the script called "preprocessing" and proceed from the point where the preprocessed data is loaded. Furthermore, due to file-size constraints, the fine-tuned BERT models are not included in this repository and, therefore, need to be trained from scratch. If you wish to retrieve the fine-tuned models, please contact the authors.
 
 ### Perform word embedding analysis
 
