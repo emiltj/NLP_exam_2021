@@ -91,7 +91,7 @@ To use or reproduce our results you need to adopt the following steps.
 **NOTE:** There may be slight variations depending on the terminal and operating system you use.  The following example is designed to work using GitBash on Windows 10. You also need to have _pip_ installed:
 
 1. Clone repository
-2. Download data
+2. Download data and create virtual environment
 3. Install virtual environment
 4. Run and inspect script
 
