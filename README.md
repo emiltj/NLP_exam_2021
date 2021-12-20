@@ -56,7 +56,7 @@ This project assesses the generalizability of fake news detection algorithms, fo
 
 To use or reproduce our results you need to adopt the following steps.
 
-**NOTE:** There may be slight variations depending on the terminal and operating system you use. The following example is designed to work using GitBash on Windows 10. You may also want to create a new virtual environment for this project:
+**NOTE:** There may be slight variations depending on the terminal and operating system you use. The following example is designed to work using a JupyterNotebook Latex application on UCloud. You may also want to create a new virtual environment for this project:
 
 1. Clone repository
 2. Download data and create virtual environment
