@@ -149,9 +149,20 @@ Perform word embedding analysis by running the following in your unix-type bash
 
 ```bash
 cd NLP_exam_2021
-???????
-?????????
-??????
+cd word_embeddings
+Cd fastText 
+Make
+Pip install .
+Cd ..
+
+# Train models by doing the following:
+python we.py model --action create
+
+# Find words with highest cosine distance between first and last period:
+python we.py model --action getCD --fromYear 0010 --toYear 0050
+
+# Get nearest neighbours for given word:
+python we.py model --action getNN --word [WORD] --period 2010
 ```
 
 
