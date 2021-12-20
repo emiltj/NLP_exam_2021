@@ -70,20 +70,16 @@ This repository has the following structure:
 ```.gitignore```| .gitignore file specifying that data and virtual environment ought to be excluded from GitHub handling
 ```README.md```| This markdown
 
-
 <!-- DATA -->
 ## Data
 
 For more exhaustive information on the data, see ```NLP_Exam_Synopsis.pdf``` and the original papers.
 
-
 ### Dataset 1
 The analysis utilized the [Fake News dataset](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php) from University of Victoria's research laboratory _Information security and object technology_ (ISOT). Access can be gained through an affiliaty university, or through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset. The data had been acquired and first used by [Ahmed et al., (2017a); Ahmed et al., (2017b)](https://scholar.google.dk/scholar?hl=da&as_sdt=0%2C5&q=ahmed+et+al+fake+news+2017&btnG=)
 
-
 ### Dataset 2
 The analysis also utilizes the [Fake News dataset](https://github.com/rpitrust/fakenewsdata1) by [Horne et al., (2017)](https://ojs.aaai.org/index.php/ICWSM/article/download/14976/14826). Access is open for anyone.
-
 
 <!-- USAGE -->
 ## Usage
@@ -96,7 +92,6 @@ To use or reproduce our results you need to adopt the following steps.
 2. Download data and create virtual environment
 3. Install virtual environment
 4. Run and inspect script
-
 
 ### Clone repository and create virtual environment
 
@@ -137,11 +132,9 @@ The .csv files from dataset 2 in the folders:
 needs to be placed in the folder:
 ```NLP_exam_2021/data/dataset2```
 
-
 ### Run notebook
 
 Run notebook ```analysis.ipynb```
-
 
 ### Perform word embedding analysis 
 
@@ -159,10 +152,9 @@ python we.py model --action create
 # Find words with highest cosine distance between first and last period:
 python we.py model --action getCD --fromYear 0010 --toYear 0050
 
-# Get nearest neighbours for given word:
-python we.py model --action getNN --word [WORD] --period 2010
+# Get nearest neighbours for given word, in a given period:
+python we.py model --action getNN --word [WORD] --period 0010
 ```
-
 
 <!-- LICENSE -->
 ## License
