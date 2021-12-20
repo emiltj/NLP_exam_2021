@@ -148,9 +148,7 @@ Run notebook ```analysis.ipynb```
 Perform word embedding analysis by running the following in your unix-type bash
 
 ```bash
-cd NLP_exam_2021
-cd word_embeddings
-Cd fastText 
+cd NLP_exam_2021/word_embeddings/fastText 
 Make
 Pip install .
 Cd ..
