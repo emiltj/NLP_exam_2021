@@ -11,7 +11,25 @@ cd ./data/generated_data
 # For each link in list of links, download to current folder
 for f in https://drive.google.com/uc?id=1sV4YAGGb0kp5G5GMYLPGigI-wmMIlgCd https://drive.google.com/uc?id=1hra_pkqy48NcbKBNbs252gtJIuis36j0 https://drive.google.com/uc?id=14119Vo3KwLqfLRKU9SqW4ljqcLjdK-PJ; do gdown $f; done
 
-# Go to new data folder
+# Go to folder, download and unzip
+cd ./data/dataset_1
+gdown https://drive.google.com/uc?id=1MNnZS52KWGC6BB1WaS81NV8yprYRDcAf
+unzip News_dataset.zip
+rm -r News_dataset.zip
+
+# Go to folder, download and unzip
+cd ../data/dataset_2/fake
+gdown https://drive.google.com/uc?id=
+rm -r .zip
+
+cd ../data/dataset_2/real
+gdown https://drive.google.com/uc?id=
+
+rm -r .zip
+
+
+
+# Go to folder
 cd ../../word_embeddings/output/texts
 
 # For each link in list of links, download to current folder
