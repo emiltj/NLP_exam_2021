@@ -54,6 +54,19 @@ This project assesses the generalizability of fake news detection algorithms, fo
 ## Repository structure
 This repository has the following structure:
 
+
+Folder PATH listing for volume Windows
+Volume serial number is 8C9B-9EDC
+C:.
+����final submission
+����individual_docs_before_merge
+����portfolio3
+�   ����eeg_data
+�   �   ����__MACOSX
+�   ����__pycache__
+����text_no_frontpages
+
+
 | File | Description|
 |--------|:-------|
 ```data/dataset_1/``` | Folder to contain the 1st dataset (make sure to follow the section "_usage_" for data acquisition)
