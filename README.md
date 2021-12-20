@@ -80,7 +80,7 @@ Follow the code below:
 
 ```bash
 cd NLP_exam_2021
-bash download_preprocessed.sh
+bash download_data.sh
 ```
 
 If you want to access the original data and perform preprocessing yourself, you may use the links below:
@@ -89,7 +89,7 @@ If you want to access the original data and perform preprocessing yourself, you 
 Download dataset 1 from [Victoria university's Information security and object technology labs, website](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php). Access can be gained through an affiliaty university or alternatively through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
 
 The .csv files from dataset 1 needs to be placed in the folder:
-```NLP_exam_2021/data/dataset1```
+```NLP_exam_2021/data/dataset_1```
 
 
 #### Dataset 2
@@ -99,7 +99,7 @@ The .csv files from dataset 2 in the folders:
 ```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Fake``` and 
 ```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Real``` 
 needs to be placed in the folder:
-```NLP_exam_2021/data/dataset2```
+```NLP_exam_2021/data/dataset_2```
 
 ### Run notebook
 
@@ -107,7 +107,7 @@ Run notebook ```analysis.ipynb```*
 
 * If you are using the preprocessed data, you may simply choose to skip all chunks within "preprocessing" in the script
 
-### Perform word embedding analysis 
+### Perform word embedding analysis
 
 Perform word embedding analysis by running the following in your unix-type bash
 
@@ -222,14 +222,12 @@ The analysis also utilizes the [Fake News dataset](https://github.com/rpitrust/f
 ## License
 Distributed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0). See ```LICENSE``` for more information.
 
-
 <!-- CONTACT -->
 ## Contact
 
 Feel free to write the authors, [Emil Jessen](https://github.com/emiltj) or [Johan Horsmans](https://github.com/johanHorsmans) for any questions regarding the scripts.
 You may do so through our emails ([Emil](mailto:201807525@post.au.dk), [Johan](mailto:201810219@post.au.dk))
 <br />
-
 
   <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
