@@ -29,7 +29,7 @@ def createModel(textsFilename, modelsFolder, modelFileExention, textFileExtensio
     # dim               # size of word vectors [100]
     # ws                # size of the context window [5]
     # epoch             # number of epochs [5]
-    # minCount          # minimal number of word occurences [5] JOHAN: before = 15
+    # minCount          # minimal number of word occurences [5]
     # minn              # min length of char ngram [3]
     # maxn              # max length of char ngram [6]
     # neg               # number of negatives sampled [5]
