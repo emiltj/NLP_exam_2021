@@ -25,13 +25,7 @@
     <li>
       <a href="#about-the-project">About the project</a>
     </li>
-    <li><a href="#repository-structure">Repository structure</a></li>
-    <li><a href="#data">Data</a></li>
-    <ul>
-      <li><a href="#dataset-1">Dataset 1</a></li>
-      <li><a href="#dataset-2">Dataset 2</a></li>
-    </ul>
-      <a href="#usage">Usage</a>
+          <a href="#usage">Usage</a>
       <ul>
         <li><a href="#clone-repository-and-create-virtual-environment">Clone repository and create virtual environment</a></li>
         <li><a href="#download-data">Download data</a></li>
@@ -40,6 +34,12 @@
         <li><a href="#perform-word-embedding-analysis">Perform word embedding analysis</a></li>
       </ul>
     </li>
+    <li><a href="#repository-structure">Repository structure</a></li>
+    <li><a href="#data">Data</a></li>
+    <ul>
+      <li><a href="#dataset-1">Dataset 1</a></li>
+      <li><a href="#dataset-2">Dataset 2</a></li>
+    </ul>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -49,6 +49,90 @@
 <!-- ABOUT THE PROJECT -->
 ## About the project
 This project assesses the generalizability of fake news detection algorithms, focussing on data quantity and quality. We do this by firstly training and cross-testing BERT models on two very different datasets; one large dataset of relatively poor quality and another which contains significantly fewer entries but of higher quality. Secondly, we investigate future prospects within the field. To do this, we discuss the findings of our cross-testing and evaluating the importance of accommodating the non-staticity of the task; in part by performing an analysis of word embeddings over time.
+
+
+<!-- USAGE -->
+## Usage
+
+To use or reproduce our results you need to adopt the following steps.
+
+**NOTE:** There may be slight variations depending on the terminal and operating system you use.  The following example is designed to work using GitBash on Windows 10. You also need to have conda installed:
+
+1. Clone repository
+2. Download data and create virtual environment
+3. Install virtual environment
+4. Run and inspect script
+
+### Clone repository and create virtual environment
+
+Clone repository and install virtual environment using the following lines in a unix-based bash:
+
+```bash
+git clone https://github.com/emiltj/NLP_exam_2021.git
+cd NLP_exam_2021
+conda create --name NLP_exam_2021
+conda activate NLP_exam_2021
+conda install pip
+pip install ipython
+pip install jupyter
+pip install -r requirements.txt
+```
+
+### Download (preprocessed) data
+
+To replicate our results, we have included a bash script that automatically creates folders for the preprocessed data and retrieves it.
+Follow the code below:
+
+```bash
+cd NLP_exam_2021
+conda activate NLP_exam_2021
+bash download_preprocessed.sh
+```
+
+If you want to access the original data and perform preprocessing yourself, you may use the links below:
+
+#### Dataset 1
+Download dataset 1 from [Victoria university's Information security and object technology labs, website](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php). Access can be gained through an affiliaty university or alternatively through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
+
+The .csv files from dataset 1 needs to be placed in the folder:
+```NLP_exam_2021/data/dataset1```
+
+
+#### Dataset 2
+Download dataset 2 from [Fake News dataset](https://github.com/rpitrust/fakenewsdata1). Access is open for anyone.
+
+The .csv files from dataset 2 in the folders:
+```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Fake``` and 
+```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Real``` 
+needs to be placed in the folder:
+```NLP_exam_2021/data/dataset2```
+
+### Run notebook
+
+Run notebook ```analysis.ipynb```
+
+### Perform word embedding analysis 
+
+Perform word embedding analysis by running the following in your unix-type bash
+
+```bash
+cd word_embeddings/
+git clone https://github.com/JohanHorsmans/fastText.git
+cd fastText 
+make
+pip install .
+cd ..
+
+# Train models by doing the following:
+python we.py model --action create
+
+# Find words with highest cosine distance between first and last period:
+python we.py model --action getCD --fromYear 0010 --toYear 0050
+
+# Get nearest neighbours for given word, in a given period:
+python we.py model --action getNN --word [WORD] --period 0010
+```
+
 
 <!-- REPOSITORY STRUCTURE -->
 ## Repository structure
@@ -137,88 +221,6 @@ The analysis utilized the [Fake News dataset](https://www-uvic-ca.ez.statsbiblio
 
 ### Dataset 2
 The analysis also utilizes the [Fake News dataset](https://github.com/rpitrust/fakenewsdata1) by [Horne et al., (2017)](https://ojs.aaai.org/index.php/ICWSM/article/download/14976/14826). Access is open for anyone.
-
-<!-- USAGE -->
-## Usage
-
-To use or reproduce our results you need to adopt the following steps.
-
-**NOTE:** There may be slight variations depending on the terminal and operating system you use.  The following example is designed to work using GitBash on Windows 10. You also need to have conda installed:
-
-1. Clone repository
-2. Download data and create virtual environment
-3. Install virtual environment
-4. Run and inspect script
-
-### Clone repository and create virtual environment
-
-Clone repository and install virtual environment using the following lines in a unix-based bash:
-
-```bash
-git clone https://github.com/emiltj/NLP_exam_2021.git
-cd NLP_exam_2021
-conda create --name NLP_exam_2021
-conda activate NLP_exam_2021
-conda install pip
-pip install ipython
-pip install jupyter
-pip install -r requirements.txt
-```
-
-### Download (preprocessed) data
-
-To replicate our results, we have included a bash script that automatically creates folders for the preprocessed data and retrieves it.
-Follow the code below:
-
-```bash
-cd NLP_exam_2021
-conda activate NLP_exam_2021
-bash download_preprocessed.sh
-```
-
-If you want to access the original data and perform preprocessing yourself, you may use the links below:
-
-#### Dataset 1
-Download dataset 1 from [Victoria university's Information security and object technology labs, website](https://www-uvic-ca.ez.statsbiblioteket.dk:12048/ecs/ece/isot/datasets/fake-news/index.php). Access can be gained through an affiliaty university or alternatively through [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) which also holds the dataset.
-
-The .csv files from dataset 1 needs to be placed in the folder:
-```NLP_exam_2021/data/dataset1```
-
-
-#### Dataset 2
-Download dataset 2 from [Fake News dataset](https://github.com/rpitrust/fakenewsdata1). Access is open for anyone.
-
-The .csv files from dataset 2 in the folders:
-```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Fake``` and 
-```Horne2017_FakeNewsData/Public\ Data/Random\ Poltical\ News\ Dataset/Real``` 
-needs to be placed in the folder:
-```NLP_exam_2021/data/dataset2```
-
-### Run notebook
-
-Run notebook ```analysis.ipynb```
-
-### Perform word embedding analysis 
-
-Perform word embedding analysis by running the following in your unix-type bash
-
-```bash
-cd word_embeddings/
-git clone https://github.com/JohanHorsmans/fastText.git
-cd fastText 
-make
-pip install .
-cd ..
-
-# Train models by doing the following:
-python we.py model --action create
-
-# Find words with highest cosine distance between first and last period:
-python we.py model --action getCD --fromYear 0010 --toYear 0050
-
-# Get nearest neighbours for given word, in a given period:
-python we.py model --action getNN --word [WORD] --period 0010
-```
 
 <!-- LICENSE -->
 ## License
