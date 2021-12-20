@@ -176,14 +176,16 @@ Feel free to write the authors, [Emil Jessen](https://github.com/emiltj) or [Joh
 You may do so through our emails ([Emil](mailto:201807525@post.au.dk), [Johan](mailto:201810219@post.au.dk))
 <br />
 
-<br />
-<p align="center">
-  <a href="https://github.com/emiltj/NLP_exam_2021">
-    <img src="README_images/logo_au.png" alt="Logo" width="300" height="102">
-  </a>
 
   <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
   
 Furthermore, we would like to extend our gratitude towards the following:
 * [Vassilis Barzokas et al.](https://github.com/intelligence-csd-auth-gr/greek-words-evolution) - Original authors of the repository with the implemented overall framework for our word embedding analysis
+
+<br />
+<p align="center">
+  <a href="https://github.com/emiltj/NLP_exam_2021">
+    <img src="README_images/logo_au.png" alt="Logo" width="300" height="102">
+  </a>
+
