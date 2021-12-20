@@ -53,7 +53,7 @@ This project assesses the generalizability of fake news detection algorithms, fo
 <!-- REPOSITORY STRUCTURE -->
 ## Repository structure
 This repository has the following structure:
-C:.
+```
 │   Analysis.ipynb
 │   download_preprocessed.sh
 │   LICENSE
@@ -108,6 +108,7 @@ C:.
                 0030.txt
                 0040.txt
                 0050.txt
+```
 
 
 | File | Description|
