@@ -106,13 +106,14 @@ cd NLP_exam_2021
 bash ```create_venv.sh```
 ```
 
-### Download data
+### Download (preprocessed) data
 
-To replicate our results, we have included a bash script that automatically retrieves the preprocessed data. 
+To replicate our results, we have included a bash script that automatically creates folders for the preprocessed data and retrieves it.
 Follow the code below:
 
 ```bash
 cd NLP_exam_2021
+conda activate NLP_exam_2021
 bash ```download_data.sh```
 ```
 
