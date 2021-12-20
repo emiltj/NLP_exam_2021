@@ -103,7 +103,9 @@ needs to be placed in the folder:
 
 ### Run notebook
 
-Run notebook ```analysis.ipynb```
+Run notebook ```analysis.ipynb```*
+
+* If you are using the preprocessed data
 
 ### Perform word embedding analysis 
 
