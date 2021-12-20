@@ -12,18 +12,18 @@ cd ./data/generated_data
 for f in https://drive.google.com/uc?id=1sV4YAGGb0kp5G5GMYLPGigI-wmMIlgCd https://drive.google.com/uc?id=1hra_pkqy48NcbKBNbs252gtJIuis36j0 https://drive.google.com/uc?id=14119Vo3KwLqfLRKU9SqW4ljqcLjdK-PJ; do gdown $f; done
 
 # Go to folder, download and unzip
-cd ./data/dataset_1
+cd ../dataset_1
 gdown https://drive.google.com/uc?id=1MNnZS52KWGC6BB1WaS81NV8yprYRDcAf
 unzip News_dataset.zip
 rm -r News_dataset.zip
 
 # Go to folder, download and unzip
-cd ../data/dataset_2/fake
+cd ../dataset_2/fake
 gdown https://drive.google.com/uc?id=1B-pBxRaQMrGq4mJbf08Cil6NYIfpCr6Y
 unzip fake.zip
 rm -r fake.zip
 
-cd ../data/dataset_2/real
+cd ../real
 gdown https://drive.google.com/uc?id=1aw8OssyIbdfuAB1iocpib3h-2ioA__RY
 unzip real.zip
 rm -r real.zip
