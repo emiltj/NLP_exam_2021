@@ -116,6 +116,7 @@ python we.py model --action getNN --word [WORD] --period 0010
 This repository has the following structure:
 ```
 │   Analysis.ipynb
+│   Analysis.pdf
 │   download_preprocessed.sh
 │   LICENSE
 │   README.md
