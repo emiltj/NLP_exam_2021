@@ -56,7 +56,7 @@ This project assesses the generalizability of fake news detection algorithms, fo
 
 To use or reproduce our results you need to adopt the following steps.
 
-**NOTE:** There may be slight variations depending on the terminal and operating system you use. The following example is designed to work using a JupyterNotebook Latex application on UCloud. You may also want to create a new virtual environment for this project.
+**NOTE:** There may be slight variations depending on the terminal and operating system you use. The following example is designed to work using a JupyterNotebook Latex application on UCloud. The terminal code should therefore work using a unix-based bash. You may also want to create a new virtual environment for this project.
 
 1. Clone repository
 2. Download data and create virtual environment
@@ -66,7 +66,7 @@ To use or reproduce our results you need to adopt the following steps.
 
 ### Clone repository and create virtual environment
 
-Clone repository and install virtual environment using the following lines in a unix-based bash:
+Clone repository and install virtual environment using the following lines in the unix-based bash:
 
 ```bash
 git clone https://github.com/emiltj/NLP_exam_2021.git
@@ -106,11 +106,11 @@ needs to be placed in the folder:
 
 Run notebook ```Analysis.ipynb```*
 
-\* If you are using the preprocessed data, you may simply choose to skip all chunks within "preprocessing" in the script
+\* If you are using the preprocessed data, you may simply choose to skip all chunks in the script called "preprocessing".
 
 ### Perform word embedding analysis
 
-Perform word embedding analysis by running the following in your unix-type bash
+Perform word embedding analysis by running the following in your unix-type bash:
 
 ```bash
 cd word_embeddings/
@@ -143,16 +143,18 @@ This repository has the following structure:
 │
 ├───data
 │   ├───dataset_1
-│   │       .gitkeep
+│   │       fake.csv*
+│   │       real.csv*
 │   │
 │   ├───dataset_2
-│   │       .gitkeep
+│   │       *.csv*
+│   │       
 │   │
 │   └───generated_data
 │           .gitkeep
-│           cleaned_dataset_1.csv
-│           cleaned_dataset_2.csv
-│           fake_periods.csv
+│           cleaned_dataset_1.csv*
+│           cleaned_dataset_2.csv*
+│           fake_periods.csv*
 │
 ├───README_images
 │       logo_au.png
@@ -163,6 +165,7 @@ This repository has the following structure:
     │   LICENSE
     │   setup.cfg
     │   we.py
+    │   raw.txt*
     │
     ├───lib
     │   │   .DS_Store
@@ -180,16 +183,15 @@ This repository has the following structure:
     │
     └───output
         ├───models
-        │       .gitkeep
         │
         └───texts
-                .gitkeep
-                0010.txt
-                0020.txt
-                0030.txt
-                0040.txt
-                0050.txt
+                0010.txt*
+                0020.txt*
+                0030.txt*
+                0040.txt*
+                0050.txt*
 ```
+\* These files are not found within this repository, but rather acquired through the steps under the section _usage_
 
 <!-- DATA -->
 ## Data
