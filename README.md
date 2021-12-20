@@ -29,8 +29,7 @@
       <ul>
         <li><a href="#clone-repository-and-create-virtual-environment">Clone repository and create virtual environment</a></li>
         <li><a href="#download-data">Download data</a></li>
-        <li><a href="#install-virtual-environment">Install virtual environment</a></li>
-        <li><a href="#run-classification-analysis">Run classificaiton analysis</a></li>
+        <li><a href="#run-classification-analysis">Run classification analysis</a></li>
         <li><a href="#perform-word-embedding-analysis">Perform word embedding analysis</a></li>
       </ul>
     </li>
@@ -59,10 +58,9 @@ To use or reproduce our results you need to adopt the following steps.
 **NOTE:** There may be slight variations depending on the terminal and operating system you use. The following example is designed to work using a JupyterNotebook Latex application on UCloud. The terminal code should therefore work using a unix-based bash. You may also want to create a new virtual environment for this project.
 
 1. Clone repository
-2. Download data and create virtual environment
-3. Install virtual environment
-4. Run classificaiton analysis
-5. Run word embedding analysis
+2. Download data and packages
+3. Run classificaiton analysis
+4. Run word embedding analysis
 
 ### Clone repository and create virtual environment
 
@@ -102,7 +100,7 @@ The .csv files from dataset 2 in the folders:
 needs to be placed in the folder:
 ```NLP_exam_2021/data/dataset_2```
 
-### Run classificaiton analysis
+### Run classification analysis
 
 Run notebook ```Analysis.ipynb```*
 
