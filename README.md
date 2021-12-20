@@ -122,7 +122,7 @@ cd ..
 # Train models by doing the following:
 python we.py model --action create
 
-# Find words with highest cosine distance between first and last period:
+# Find words with highest cosine distance between first and last period (note that this creates a new file "raw.txt", that needs inspecting):
 python we.py model --action getCD --fromYear 0010 --toYear 0050
 
 # Get nearest neighbours for given word, in a given period:
