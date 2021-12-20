@@ -5,14 +5,7 @@
 # Install gdown for download from drive folder
 pip install gdown
 
-# Make a data folder
-mkdir './data'
-mkdir './data/generated_data'
-mkdir './word_embeddings/output'
-mkdir './word_embeddings/output/texts'
-mkdir './word_embeddings/output/models'
-
-# Go to new data folder
+# Go to folder
 cd ./data/generated_data
 
 # For each link in list of links, download to current folder
