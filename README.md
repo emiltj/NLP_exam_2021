@@ -99,7 +99,7 @@ The analysis also utilizes the [Fake News dataset](https://github.com/rpitrust/f
 
 To use or reproduce our results you need to adopt the following steps.
 
-**NOTE:** There may be slight variations depending on the terminal and operating system you use.  The following example is designed to work using GitBash on Windows 10. You also need to have _pip_ installed:
+**NOTE:** There may be slight variations depending on the terminal and operating system you use.  The following example is designed to work using GitBash on Windows 10. You also need to have conda installed:
 
 1. Clone repository
 2. Download data and create virtual environment
@@ -111,9 +111,14 @@ To use or reproduce our results you need to adopt the following steps.
 Clone repository and install virtual environment using the following lines in a unix-based bash:
 
 ```bash
-git clone https:```//github.com/emiltj/NLP_exam_2021.git```
+git clone ```https://github.com/emiltj/NLP_exam_2021.git```
 cd NLP_exam_2021
-bash ```create_venv.sh```
+conda create --name NLP_exam_2021
+conda activate NLP_exam_2021
+conda install pip
+pip install ipython
+pip install jupyter
+conda install --file requirements.txt
 ```
 
 ### Download (preprocessed) data
