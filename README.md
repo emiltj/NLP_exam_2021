@@ -53,18 +53,60 @@ This project assesses the generalizability of fake news detection algorithms, fo
 <!-- REPOSITORY STRUCTURE -->
 ## Repository structure
 This repository has the following structure:
-
-
-Folder PATH listing for volume Windows
-Volume serial number is 8C9B-9EDC
-C:.
-����final submission
-����individual_docs_before_merge
-����portfolio3
-�   ����eeg_data
-�   �   ����__MACOSX
-�   ����__pycache__
-����text_no_frontpages
+│   Analysis.ipynb
+│   download_preprocessed.sh
+│   LICENSE
+│   README.md
+│   requirements.txt
+│
+├───data
+│   ├───dataset_1
+│   │       .gitkeep
+│   │
+│   ├───dataset_2
+│   │       .gitkeep
+│   │
+│   └───generated_data
+│           .gitkeep
+│           cleaned_dataset_1.csv
+│           cleaned_dataset_2.csv
+│           fake_periods.csv
+│
+├───README_images
+│       logo_au.png
+│       nlp2.png
+│
+└───word_embeddings
+    │   .DS_Store
+    │   LICENSE
+    │   setup.cfg
+    │   we.py
+    │
+    ├───lib
+    │   │   .DS_Store
+    │   │   file.py
+    │   │   metadata.py
+    │   │   model.py
+    │   │   text.py
+    │   │   vector.py
+    │   │   website.py
+    │   │   __init__.py
+    │   │
+    │   └───websites
+    │           openbook.py
+    │           __init__.py
+    │
+    └───output
+        ├───models
+        │       .gitkeep
+        │
+        └───texts
+                .gitkeep
+                0010.txt
+                0020.txt
+                0030.txt
+                0040.txt
+                0050.txt
 
 
 | File | Description|
