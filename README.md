@@ -105,7 +105,7 @@ needs to be placed in the folder:
 
 Run notebook ```analysis.ipynb```*
 
-* If you are using the preprocessed data
+* If you are using the preprocessed data, you may simply choose to skip all chunks within "preprocessing" in the script
 
 ### Perform word embedding analysis 
 
