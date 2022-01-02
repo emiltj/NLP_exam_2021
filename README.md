@@ -202,9 +202,9 @@ You may do so through our emails ([Emil](mailto:201807525@post.au.dk), [Johan](m
 ## Acknowledgements
   
 Furthermore, we would like to extend our gratitude towards the following:
-* [Barzokas et al. (2019/2021)](https://github.com/intelligence-csd-auth-gr/greek-words-evolution) - Original authors of the repository with the implemented overall framework for our word embedding analysis.
+* [Barzokas et al. (2019/2021)](https://github.com/intelligence-csd-auth-gr/greek-words-evolution) - Original authors of the repository with the overall framework implemented and modified for our word embedding analysis.
 * Horne et al. (2017) for providing data.
-* Ahmed et al., (2017a); Ahmed et al., (2017b) for providing data.
+* Ahmed et al., (2017, 2018) for providing data.
 
 <br />
 <p align="center">
