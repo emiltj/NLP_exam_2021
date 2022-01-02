@@ -47,7 +47,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About the project
-This project assesses the generalizability of fake news detection algorithms, focussing on data quantity and quality. We do this by firstly training and cross-testing BERT models on two very different datasets; one large dataset of relatively poor quality and another which contains significantly fewer entries but of higher quality. Secondly, we investigate future prospects within the field. To do this, we discuss the findings of our cross-testing and the importance of accommodating the non-staticity of the task; in part by performing an analysis of word embeddings over time.
+This project assesses the generalizability of fake news detection algorithms, focussing on data quantity and quality. We do this by firstly training and cross-testing BERT models on two very different datasets; one large dataset of relatively poor quality and another which contains significantly fewer entries but of higher quality. Secondly, we investigate the non-staticity of the task by performing an analysis of dynamic word embeddings over time.
 
 
 <!-- USAGE -->
