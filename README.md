@@ -109,7 +109,7 @@ python we.py model --action getCD --fromYear 0010 --toYear 0050
 # Get nearest neighbours for given word, in a given period:
 python we.py model --action getNN --word [WORD] --period 0010
 ```
-
+The different .txt-files correspond to the periods listed in the synopsis (where 0010 is the first period and 0050 is the last period). 
 
 <!-- REPOSITORY STRUCTURE -->
 ## Repository structure
