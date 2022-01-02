@@ -189,7 +189,7 @@ The analysis also utilizes the [Fake News dataset](https://github.com/rpitrust/f
 
 <!-- LICENSE -->
 ## License
-Distributed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0). See ```LICENSE``` for more information.
+Distributed under the [MIT License](https://opensource.org/licenses/MIT). See ```LICENSE``` for more information.
 
 <!-- CONTACT -->
 ## Contact
